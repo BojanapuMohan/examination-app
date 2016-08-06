@@ -54,3 +54,10 @@ gem 'devise'
 gem "cancancan"
 gem 'jquery-ui-rails'
 gem 'rails-jquery-autocomplete'
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+end
+
+gem 'heroku'
+ruby '2.2.0'
